@@ -1,0 +1,15 @@
+{
+  "name": "tradingbot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "equaliser",
+  "license": "MIT",
+  "dependencies": {
+    "bitvavo": "^1.1.7"
+  }
+}
