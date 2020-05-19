@@ -1,15 +1,18 @@
 {
   "name": "tradingbot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
+    "notify": "node notifier/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "equaliser",
   "license": "MIT",
   "dependencies": {
-    "bitvavo": "^1.1.7"
+    "bitvavo": "^1.1.7",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6"
   }
 }
